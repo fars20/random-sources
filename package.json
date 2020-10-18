@@ -1,0 +1,14 @@
+{
+  "name": "react-random",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "license": "MIT",
+  "description": "React hooks for random data sources",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo no tests found",
+  },
+  "author": ""
+}
