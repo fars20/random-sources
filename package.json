@@ -8,7 +8,17 @@
     "lib": "lib"
   },
   "scripts": {
-    "test": "echo no tests found"
+    "test": "echo no tests found",
+    "build": "rimraf node/ && babel ./lib --out-dir node/ --copy-files"
+  },
+  "dependencies": {
+    "@babel/cli": "^7.12.1",
+    "@babel/core": "^7.12.3",
+    "@babel/preset-env": "^7.12.1",
+    "date-fns": "^2.16.1",
+    "nodeplotlib": "^0.6.5",
+    "plotly": "^1.0.6",
+    "simple-statistics": "^7.3.0"
   },
   "author": ""
 }
