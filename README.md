@@ -11,7 +11,8 @@ random-sources is a JavaScript library that provides various functions to genera
 
 ## Usage
 
-```
+```javascript
+
 import { generateTimeSeries } from 'random-sources';
 
 const series = generateTimeSeries({
@@ -21,12 +22,13 @@ const series = generateTimeSeries({
   sd: 1 //optional
 });
 
-// [['',1.5467],....]
+// [['2019-09-18T20:00:00Z',1.5467],....]
 
-series.map( dataPoint => {
+series.forEach( dataPoint => {
+
   const [time,number] = dataPoint;
-  
   console.log(time.toString(),number);
+  
 });
 ```
 
