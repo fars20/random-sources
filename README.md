@@ -12,6 +12,8 @@ random-sources is a JavaScript library that provides various functions to genera
 ## Usage
 
 ```
+import { generateTimeSeries } from 'random-sources';
+
 const series = generateTimeSeries({
   from: "2019-09-18T20:00:00Z",
   to: "2019-09-18T22:00:20Z",
