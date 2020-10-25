@@ -18,7 +18,7 @@ const series = generateTimeSeries({
   from: "2019-09-18T20:00:00Z",
   to: "2019-09-18T22:00:20Z",
   precession: 1000, //optional
-  sd: 1 //optonal
+  sd: 1 //optional
 });
 
 // [['',1.5467],....]
