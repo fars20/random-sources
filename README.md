@@ -23,4 +23,10 @@ const series = generateTimeSeries({
 
 // [['',1.5467],....]
 
+series.map( dataPoint => {
+  const [time,number] = dataPoint;
+  
+  console.log(time.toString(),number);
+});
 ```
+
