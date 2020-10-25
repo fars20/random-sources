@@ -4,9 +4,9 @@ random-sources is a JavaScript library that provides various functions to genera
 
 ## Install
 
-`npm install random-sources`
+`npm install @fars20/random-sources@0.2.0`
 
-`yarn add random-sources`
+`yarn add @fars20/random-sources@0.2.0`
 
 
 ## Usage
