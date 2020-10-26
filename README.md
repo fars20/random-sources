@@ -1,5 +1,3 @@
-![alt text](https://cdn.pixabay.com/photo/2012/04/05/01/24/dice-25637_1280.png)
-
 # random-sources
 
 random-sources is a JavaScript library that provides various functions to generate random numbers and series of numbers generally useful as test data for various libraries and applications
